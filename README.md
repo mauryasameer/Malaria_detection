@@ -64,8 +64,13 @@ python app.py
 The full NIH dataset is too large to ship in the repo. Use the included Colab
 notebook to train on a free GPU:
 
-[`notebooks/train_colab.ipynb`](notebooks/train_colab.ipynb) — open in Colab,
-run all cells, download the resulting `model.pt` + `metrics.json`.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mauryasameer/Malaria_detection/blob/master/notebooks/train_colab.ipynb)
+
+Click the badge above (or open [`notebooks/train_colab.ipynb`](notebooks/train_colab.ipynb)
+directly), run all cells — it clones the repo, downloads the dataset, runs a
+quick exploratory data analysis (class balance, sample images, image-size
+stats), trains the model, and lets you download the resulting `model.pt` +
+`metrics.json`.
 
 Or train locally once you have the dataset extracted to `data/cell_images/`:
 
