@@ -1,0 +1,6 @@
+torch>=2.2
+torchvision>=0.17
+gradio>=4.0
+huggingface_hub<1.0
+pillow>=10.0
+pytest>=8.0
