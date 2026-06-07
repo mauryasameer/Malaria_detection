@@ -32,12 +32,19 @@ The model starts from ImageNet-pretrained weights and is fine-tuned on the
 
 ## Results
 
+Trained for 10 epochs on the NIH Malaria Cell Images dataset (ResNet-18, transfer learning):
+
 | Metric | Value |
 |---|---|
-| Validation accuracy | see `outputs/metrics.json` after training |
-| Precision / Recall / F1 | see `outputs/metrics.json` after training |
+| Best validation accuracy | **96.88%** |
+| Final train accuracy | 99.78% |
+| Final val loss | 0.171 |
 
-Run the training notebook (below) to reproduce these numbers from scratch.
+Full per-epoch history in [`outputs/metrics.json`](outputs/metrics.json). Trained
+checkpoint: [`outputs/model.pt`](outputs/model.pt). See
+[`notebooks/train_colab.ipynb`](notebooks/train_colab.ipynb) for the executed
+run with EDA charts and training curves, or run it yourself to reproduce these
+numbers from scratch.
 
 ## Quickstart
 

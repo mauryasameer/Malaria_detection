@@ -3,7 +3,9 @@ __pycache__/
 .pytest_cache/
 .venv/
 venv/
-outputs/
+outputs/*
+!outputs/model.pt
+!outputs/metrics.json
 data/
 *.egg-info/
 .DS_Store
