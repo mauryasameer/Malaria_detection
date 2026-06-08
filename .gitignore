@@ -9,3 +9,6 @@ outputs/*
 data/
 *.egg-info/
 .DS_Store
+
+# local planning docs - never push to repo
+docs/superpowers/
